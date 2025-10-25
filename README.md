@@ -1,4 +1,4 @@
-# FaceNomad v1.6.0
+# FaceNomad v1.5.0
 
 ![FaceNomad Logo](https://img.shields.io/badge/FaceNomad-v1.6.0-green)
 ![License](https://img.shields.io/badge/license-MIT-blue)
