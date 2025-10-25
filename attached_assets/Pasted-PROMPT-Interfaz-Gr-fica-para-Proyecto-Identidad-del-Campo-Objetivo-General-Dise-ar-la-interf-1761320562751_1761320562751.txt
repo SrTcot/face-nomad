@@ -1,0 +1,83 @@
+PROMPT: Interfaz Gráfica para Proyecto “Identidad del Campo”
+
+🎯 Objetivo General:
+Diseñar la interfaz gráfica de un sistema de reconocimiento biométrico offline para trabajadores agrícolas, llamado “Identidad del Campo”, enfocado en usabilidad, velocidad y operación sin conexión.
+
+El sistema debe permitir registrar, identificar y sincronizar automáticamente los datos de entrada/salida de trabajadores rurales utilizando reconocimiento facial local (IA offline).
+
+🧩 Contexto Técnico
+
+Entorno de despliegue: Android (tablets y smartphones económicos) y Raspberry Pi con pantalla táctil.
+
+Conectividad: Intermitente o nula (modo offline con sincronización posterior).
+
+Usuarios finales: Supervisores rurales con bajo nivel técnico, y trabajadores agrícolas.
+
+Tiempo de uso: Condiciones de campo (sol, polvo, guantes, poca precisión táctil).
+
+🎨 Lineamientos de Diseño (UI/UX)
+
+Estilo visual: minimalista, intuitivo, con íconos grandes y colores de alto contraste (verde, marrón, blanco, gris).
+
+Flujo principal:
+
+Pantalla de bienvenida: logo “Identidad del Campo”, botón “Registrar jornada”.
+
+Pantalla de captura facial: vista de cámara con marco de detección, texto guía “Mira al frente por favor”.
+
+Pantalla de validación: muestra foto, nombre y estado (“Entrada registrada” o “Salida registrada”).
+
+Historial local: lista de registros (nombre, fecha, hora, estado, sincronizado o pendiente).
+
+Pantalla de configuración: opciones de idioma, sincronización manual, seguridad y actualización del modelo IA.
+
+Componentes UI clave:
+
+Botones grandes (mínimo 80x80 px).
+
+Barra de estado de conexión (icono verde/rojo).
+
+Indicador de batería o energía si se usa en Raspberry.
+
+Iconos accesibles (material icons o lucide-react).
+
+Feedback al usuario:
+
+Sonido corto o vibración al registrar correctamente.
+
+Mensaje visible tipo “✅ Registro completado” o “⚠️ Sin conexión, guardado localmente”.
+
+🧱 Requerimientos Técnicos de la Interfaz
+
+Framework sugerido:
+
+Android (Kotlin + Jetpack Compose) o
+
+React + TailwindCSS si se usa en panel web o PWA (para Raspberry o navegador).
+
+Modo Offline: datos almacenados en SQLite o IndexedDB local.
+
+Sincronización: botón “Sincronizar” que activa proceso WorkManager (Android) o API REST (web).
+
+Internacionalización (i18n): soportar español e inglés.
+
+Modo oscuro (dark mode): automático si es posible.
+
+🧩 Elementos Adicionales Solicitados
+
+Iconografía relacionada con agricultura (campo, hojas, trabajadores).
+
+Logo tipo minimalista con silueta de rostro y hoja verde.
+
+Animación simple de reconocimiento facial (loading circle o bounding box dinámico).
+
+Estructura de carpetas limpia y escalable: /screens, /components, /assets, /db.
+
+Código comentado y modular (principio SOLID).
+
+⚙️ Instrucciones para la IA o Diseñador
+
+“Genera una interfaz completa para el sistema Identidad del Campo, siguiendo las especificaciones anteriores.
+Incluye wireframes o mockups de las pantallas principales, paleta de colores, tipografía y estructura de navegación.
+Si generas código, usa Kotlin + Jetpack Compose (para app Android) o React + TailwindCSS (para PWA).
+La interfaz debe funcionar completamente offline, ser intuitiva para trabajadores rurales y permitir sincronización cuando detecta red.”

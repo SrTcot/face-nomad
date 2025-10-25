@@ -1,0 +1,39 @@
+Technology
+Entrenamiento en Innovación y Tecnología
+Organiza
+Apoya
+Empresa Retadora Lote 2: SIOMAhttp://www.gruponex.cohttp://www.nilo.app
+Reto: Identidad del Campo – IA Offline para Reconocimiento Biométrico
+La empresa Sioma opera en zonas rurales y agrícolas, donde la conectividad a internet es limitada o nula, pero la
+necesidad de trazabilidad, control de horas trabajadas y gestión de nómina es crítica. Los procesos manuales
+actuales son ineficientes y propensos a errores.
+Este reto se enmarca en la búsqueda de soluciones innovadoras que permitan la automatización justa y sostenible
+del trabajo agrícola. Se busca aprovechar el talento formado en programación, desarrollo móvil (Android), y
+Machine Learning (ML/IA) a través de programas como Talento Tech, para llevar la tecnología de procesamiento
+local (edge computing) a donde realmente se necesita: el campo.
+Desarrollar un sistema de reconocimiento de personas (biométrico) que funcione completamente offline,
+destinado al monitoreo de ingresos y salidas de los trabajadores de campo.
+El sistema debe ser implementado en una aplicación Android o dispositivo local, capaz de capturar la identidad del
+trabajador y registrar los eventos en una base de datos local que pueda sincronizarse automáticamente cuando la
+conexión se restablezca.
+Contexto
+El desafío es superar la barrera de la conectividad utilizando la tecnología. Los equipos deben proponer y construir
+una solución que combine:
+Utilizar técnicas de reconocimiento facial, de voz, de huella, de iris o patrones de movimiento con modelos
+ligeros de Inteligencia Artificial (IA) o Machine Learning (ML) que residan y se ejecuten localmente en el
+dispositivo.
+Descripción del Reto
+Objetivo del Reto
+Tecnología Biometría Offline:
+El sistema debe operar en dispositivos Android (tablets, celulares) o estaciones locales económicas
+(como Raspberry Pi), sin depender de la nube para la identificación diaria.
+Edge Computing en Campo:
+La aplicación debe almacenar temporalmente todos los registros de ingreso y salida (timestamping) en
+una base de datos local y sincronizar automáticamente los datos a la infraestructura de SIOMA cuando el
+dispositivo detecte una señal de red estable.
+Almacenamiento Local y Sincronización:
+Reconocimiento biométrico offline (identificación por patrón único).
+Registro de entradas y salidas con fecha, hora y nombre del trabajador.
+Almacenamiento local sincronizable.
+Interfaz de usuario Android intuitiva (simple y rápida).
+Seguridad básica de datos (protección local de información sensible).

@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-gray-900 antialiased;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+
+  * {
+    @apply outline-none;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .touch-area {
+    min-width: 44px;
+    min-height: 44px;
+  }
+}

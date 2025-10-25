@@ -1,0 +1,104 @@
+2025-10-25 08:12:34.26
+e3f0d217
+System
+forwarding local port 5000 to external port 80 (mapped as 1104)
+2025-10-25 08:12:42.51
+e3f0d217
+User
+npm error code ENOENT
+2025-10-25 08:12:42.51
+e3f0d217
+User
+npm error syscall open
+2025-10-25 08:12:42.51
+e3f0d217
+User
+npm error path /home/runner/package.json
+2025-10-25 08:12:42.51
+e3f0d217
+User
+npm error errno -2
+2025-10-25 08:12:42.51
+e3f0d217
+User
+npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/home/runner/package.json'
+2025-10-25 08:12:42.51
+e3f0d217
+User
+npm error enoent This is related to npm not being able to find a file.
+2025-10-25 08:12:42.51
+e3f0d217
+User
+npm error enoent
+2025-10-25 08:12:42.52
+e3f0d217
+User
+npm error A complete log of this run can be found in: /home/runner/.npm/_logs/2025-10-25T13_12_40_750Z-debug-0.log
+2025-10-25 08:12:54.87
+e3f0d217
+User
+[INFO] Cargando imágenes desde: dataset
+2025-10-25 08:12:54.87
+e3f0d217
+User
+[INFO] 4 rostros cargados. Entrenando modelo...
+2025-10-25 08:12:54.87
+e3f0d217
+User
+[INFO] Entrenamiento completado
+2025-10-25 08:12:54.87
+e3f0d217
+User
+[MONGO INFO] Conectado exitosamente a MongoDB Atlas - DB: facenomad
+2025-10-25 08:12:54.87
+e3f0d217
+User
+[INFO] Servidor iniciado en puerto 5000
+2025-10-25 08:12:54.87
+e3f0d217
+User
+* Serving Flask app 'app'
+2025-10-25 08:12:54.87
+e3f0d217
+User
+* Debug mode: on
+2025-10-25 08:12:54.95
+e3f0d217
+User
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+2025-10-25 08:12:54.95
+e3f0d217
+User
+* Running on all addresses (0.0.0.0)
+2025-10-25 08:12:54.95
+e3f0d217
+User
+* Running on http://127.0.0.1:5000
+2025-10-25 08:12:54.95
+e3f0d217
+User
+* Running on http://10.0.13.55:5000
+2025-10-25 08:12:54.95
+e3f0d217
+User
+Press CTRL+C to quit
+2025-10-25 08:12:54.96
+e3f0d217
+User
+* Restarting with stat
+2025-10-25 08:12:58.50
+e3f0d217
+User
+* Debugger is active!
+2025-10-25 08:12:58.52
+e3f0d217
+User
+* Debugger PIN: 133-040-471
+2025-10-25 08:12:59.47
+e3f0d217
+User
+127.0.0.1 - - [25/Oct/2025 13:12:59] "GET / HTTP/1.1" 404 -
+2025-10-25 08:13:43.31
+e3f0d217
+User
+127.0.0.1 - - [25/Oct/2025 13:13:43] "GET / HTTP/1.1" 404 -
