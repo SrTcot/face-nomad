@@ -108,7 +108,7 @@ FaceNomad está diseñado específicamente para:
 ### 1. Clonar el Repositorio
 
 ```bash
-git clone https://github.com/tuusuario/facenomad.git
+git clone (https://github.com/SrTcot/face-nomad)
 cd facenomad
 ```
 
