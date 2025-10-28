@@ -488,7 +488,7 @@ Este proyecto está bajo la licencia MIT. Ver archivo `LICENSE` para más detall
 ---
 
 ## 👨‍💻 Autor
--Juan Felipe Sánchez Arango
+-Ing Informático Juan Felipe Sánchez Arango
 [Juan Felipe Development Services](https://JuanFelipeDevelopmentServices.replit.app)
 Desarrollado para gestión de asistencia en entornos rurales con conectividad limitada.
 
